@@ -1,0 +1,6 @@
+*.o
+*.hi
+dist/
+/ch04/FixLines
+/ch04/InteractWith
+/ch05/simple
