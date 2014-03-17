@@ -9,10 +9,12 @@ Description:
 Author: Real World Haskell
 Maintainer: luke.amdor@gmail.com
 
-Cabal-Version: >= 1.16
+Cabal-Version: >= 1.17
+Build-Type: Simple
 
 library
   Exposed-Modules: Prettify
                    PrettyJSON
                    SimpleJSON
-  Build-depends: base >= 4.6
+  Build-depends: base == 4.*
+  Default-Language: Haskell2010
